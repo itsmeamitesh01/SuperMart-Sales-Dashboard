@@ -1,5 +1,10 @@
 # 🛒 SuperMart Sales Dashboard
 
+![Power BI](https://img.shields.io/badge/Power%20BI-DATA%20VIS-yellow?logo=powerbi&logoColor=white)
+![File](https://img.shields.io/badge/File-.pbit-blue)
+![Status](https://img.shields.io/badge/Status-Learning%20Project-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ---
 
 ## ✅ Overview
@@ -90,9 +95,13 @@ To create an interactive dashboard that:
 
 1. Download or clone this repository.
 2. Open the `.pbit` file in **Power BI Desktop**.
-3. When prompted, connect your dataset or enter parameters.
+3. When prompted, connect your own dataset (e.g., CSVs with the same structure) or update the data source parameters.
 4. Use slicers and dropdown filters to explore sales trends by state, category, and customer.
 5. Hover over visuals for detailed tooltips and drill-downs.
+
+⚡ **Note:**  
+This `.pbit` template includes all visuals, formatting, DAX measures, and the data model.  
+It does not contain the raw data. Connect your dataset with the same structure to see the visuals populate automatically.
 
 ---
 
