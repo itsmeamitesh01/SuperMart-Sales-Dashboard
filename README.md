@@ -89,9 +89,10 @@ To create an interactive dashboard that:
 ## 🚀 How to Use
 
 1. Download or clone this repository.
-2. Open the `.pbix` file in **Power BI Desktop**.
-3. Use slicers and dropdown filters to explore sales trends by state, category, and customer.
-4. Hover over visuals for detailed tooltips and drill-downs.
+2. Open the `.pbit` file in **Power BI Desktop**.
+3. When prompted, connect your dataset or enter parameters.
+4. Use slicers and dropdown filters to explore sales trends by state, category, and customer.
+5. Hover over visuals for detailed tooltips and drill-downs.
 
 ---
 
