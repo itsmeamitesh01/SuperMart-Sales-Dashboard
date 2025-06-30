@@ -62,7 +62,7 @@ This interactive Power BI dashboard provides a comprehensive overview of **Super
 
 ## 📜 License
 
-The visuals, report design, and DAX measures in this project are released under the MIT License.
+The visuals, report design, and DAX measures in this project are released under the [MIT License](License)
 
 ⚠️ **Data Source Disclaimer:**  
 The dataset is for practice only. Use at your own discretion.
