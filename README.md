@@ -1,68 +1,116 @@
-# SuperMart-Sales-Dashboard
-## ✅ Overview
-This interactive Power BI dashboard provides a comprehensive overview of **SuperMart’s online sales performance** across regions, product categories, and time periods. It helps stakeholders identify sales trends, profit patterns, top customers, and payment mode preferences to drive data-backed decisions.
+# 🛒 SuperMart Sales Dashboard
 
 ---
-## ⚙️ Key Features
 
-1. **Executive Summary Cards**
-   - Key metrics at a glance — Total Sales Amount, Profit, Quantity Sold, and Average Order Value (AOV).
+## ✅ Overview
 
+An interactive Power BI report to analyze SuperMart’s e-commerce sales, profit trends, top customers, product categories, and payment methods.
 
-2. **Regional Insights:**  
-    - Bar charts to show **Sum of Amount by State** and **Top Customers** by sales.
+> A dynamic, easy-to-explore sales analytics dashboard designed to help stakeholders track performance, identify profit drivers, and spot sales opportunities across states and product categories.
 
-3. **Category Analysis:**  
-    - Donut charts visualize **Quantity Sold by Category** and **Quantity by Payment Mode**.
-    - Bar charts display **Profit by Sub-Category** to identify high and low margin items.
+---
 
-4. **Time Series Trends:**  
-    - **Profit by Month** bar chart highlights seasonality, profitable months, and loss-making periods.
-    - Interactive quarter slicers allow focused analysis.
-  
-5. **Dynamic Filtering:**  
-    - Users can drill down by quarter and use dropdown filters for deeper insights.
+## ✏️ Short Description / Purpose
 
-6. **Modern Design:**  
-    - Clean, visually engaging layout with color-coded charts for easy interpretation.
+The **SuperMart Sales Dashboard** is a learning-based Power BI project built to practice data modeling, DAX measures, and interactive visualization techniques.  
+It provides clear, actionable insights for understanding regional sales patterns, customer contributions, and product category performance.
 
+---
+
+## 🛠️ Tech Stack
+
+The dashboard was developed using the following tools and technologies:
+
+- 📊 **Power BI Desktop** — Core BI tool for report building.
+- 🔍 **Power Query** — Used for data cleaning and shaping before modeling.
+- 🧩 **DAX (Data Analysis Expressions)** — Created calculated columns and measures for dynamic visuals.
+- 📐 **Data Modeling** — Designed relationships between tables to enable cross-filtering and drill-downs.
+- 📁 **File Formats** — `.pbix` for the report file and `.png` for dashboard previews.
+
+---
+
+## 🗂️ Data Source
+
+⚠️ **Disclaimer:**  
+This project uses a sample dataset for demonstration and learning purposes only.  
+The original source of the data is unknown and may be subject to its own copyright or usage restrictions.
+
+---
+
+## ⚙️ Features / Highlights
+
+### • Business Problem
+SuperMart’s sales managers need an interactive view of sales, profit, and customer trends to make informed decisions — but raw spreadsheets make this analysis inefficient and error-prone.
+
+### • Goal of the Dashboard
+To create an interactive dashboard that:
+- Provides a clear overview of total sales, profit, and order volume.
+- Highlights top-performing states, customers, categories, and payment methods.
+- Enables dynamic filtering and drill-downs for deeper insights.
+
+### • Walkthrough of Key Visuals
+
+- **Executive Summary Cards:**  
+  Quick KPIs for Total Sales Amount, Profit, Quantity Sold, and Average Order Value (AOV).
+
+- **Regional Insights:**  
+  Bar charts display **Sales by State** and identify **Top Customers** by sales contribution.
+
+- **Category Analysis:**  
+  Donut charts show **Quantity Sold by Category** and **Payment Mode Preferences**.  
+  Bar charts reveal **Profit by Sub-Category**, highlighting profitable and loss-making product lines.
+
+- **Time Series Trends:**  
+  Monthly profit trends show seasonal peaks and dips.  
+  Interactive quarter slicers let users focus on specific time periods.
+
+- **Dynamic Filtering:**  
+  Slicers and dropdown filters allow drill-downs by region, product category, and time period.
+
+- **Modern Visual Design:**  
+  Consistent color palette and intuitive layout for easy navigation and quick insights.
+
+### • Business Impact & Insights
+
+- Sales teams can target high-profit states and loyal customers.
+- Product managers can identify best-selling and underperforming categories.
+- Executives gain a high-level view of seasonal trends and payment preferences.
+
+---
+
+## 📸 Screenshots / Demo
+
+**Dashboard Preview:**
+
+![SuperMart Sales Dashboard](./Dashboard.png)
+
+---
 
 ## 🚀 How to Use
 
-1. Open the `.pbix` file in **Power BI Desktop**.
-2. Use **quarter buttons** and **dropdown filters** to refine the data view.
-3. Hover over charts for tooltips with additional detail.
-4. Identify key trends and outliers using dynamic visuals.
-
----
-
-## 📈 Business Questions Answered
-
-1. Which states generate the highest sales?
-2. Who are our top customers by sales volume?
-3. Which product categories and sub-categories are the most profitable?
-4. What are the seasonal profit trends?
-5. Which payment methods are most popular?
-
----
-
-## 🛠️ Tools Used
-
-1. **Power BI Desktop**
-2. **DAX (Data Analysis Expressions)**
-3. **Data Modeling & Visualization**
-
----
-
-## 📸 Dashboard Preview
-
-![Dashboard Screenshot](./Dashboard.png)
+1. Download or clone this repository.
+2. Open the `.pbix` file in **Power BI Desktop**.
+3. Use slicers and dropdown filters to explore sales trends by state, category, and customer.
+4. Hover over visuals for detailed tooltips and drill-downs.
 
 ---
 
 ## 📜 License
 
-The visuals, report design, and DAX measures in this project are released under the [MIT License](LICENSE)
+The visuals, report design, and DAX measures in this project are released under the [MIT License](./LICENSE).
 
 ⚠️ **Data Source Disclaimer:**  
-The dataset is for practice only. Use at your own discretion.
+This dataset is for learning and demonstration only. Use at your own discretion.
+
+---
+
+## 📘 Project Context
+
+This dashboard was built as part of a **learning exercise** to practice:
+- Connecting and transforming data with Power Query.
+- Building data models and relationships.
+- Creating calculated measures and columns with DAX.
+- Designing clean, interactive reports in Power BI.
+
+---
+
